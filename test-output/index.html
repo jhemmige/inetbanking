@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MavenSelYoutubeBankingProject">
+              <span class="suite-name border-failed">MavenSelYoutubeBankingProject</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MavenSelYoutubeBankingProject">
+                    <span>TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MavenSelYoutubeBankingProject">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MavenSelYoutubeBankingProject">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MavenSelYoutubeBankingProject">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MavenSelYoutubeBankingProject">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MavenSelYoutubeBankingProject">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MavenSelYoutubeBankingProject">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 5 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MavenSelYoutubeBankingProject" class="hide-methods failed suite-MavenSelYoutubeBankingProject"> (hide)</a> <!-- hide-methods failed suite-MavenSelYoutubeBankingProject -->
+                      <a href="#" panel-name="suite-MavenSelYoutubeBankingProject" class="show-methods failed suite-MavenSelYoutubeBankingProject"> (show)</a> <!-- show-methods failed suite-MavenSelYoutubeBankingProject -->
+                    </span>
+                    <div class="method-list-content failed suite-MavenSelYoutubeBankingProject">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenSelYoutubeBankingProject" title="com.inetbanking.testCases.TC_LoginTest_002_test" hash-for-method="loginDDT(mngr112909, tytUreg)">loginDDT(mngr112909, tytUreg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenSelYoutubeBankingProject" title="com.inetbanking.testCases.TC_LoginTest_002_test" hash-for-method="loginDDT(mngr137319, bAdYvyb)">loginDDT(mngr137319, bAdYvyb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenSelYoutubeBankingProject" title="com.inetbanking.testCases.TC_LoginTest_002_test" hash-for-method="loginDDT(mngr83460, qAbUzyj)">loginDDT(mngr83460, qAbUzyj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenSelYoutubeBankingProject" title="com.inetbanking.testCases.TC_LoginTest_002_test" hash-for-method="loginDDT(mngr369280, YrujEnEQ)">loginDDT(mngr369280, YrujEnEQ)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenSelYoutubeBankingProject" title="com.inetbanking.testCases.TC_LoginTest_002_test" hash-for-method="loginDDT(mngr369280, YrujEnE)">loginDDT(mngr369280, YrujEnE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MavenSelYoutubeBankingProject -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MavenSelYoutubeBankingProject" class="hide-methods passed suite-MavenSelYoutubeBankingProject"> (hide)</a> <!-- hide-methods passed suite-MavenSelYoutubeBankingProject -->
+                      <a href="#" panel-name="suite-MavenSelYoutubeBankingProject" class="show-methods passed suite-MavenSelYoutubeBankingProject"> (show)</a> <!-- show-methods passed suite-MavenSelYoutubeBankingProject -->
+                    </span>
+                    <div class="method-list-content passed suite-MavenSelYoutubeBankingProject">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenSelYoutubeBankingProject" title="com.inetbanking.testCases.TC_LoginTest_001_test" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MavenSelYoutubeBankingProject -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MavenSelYoutubeBankingProject" class="panel MavenSelYoutubeBankingProject">
+          <div class="suite-MavenSelYoutubeBankingProject-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.inetbanking.testCases.TC_LoginTest_002_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(mngr112909, tytUreg)">
+                  </a> <!-- loginDDT(mngr112909, tytUreg) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(mngr112909, tytUreg)</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy35.sendKeys(Unknown Source)
+	at com.inetbanking.pageobjects.loginPageObjects.setUname(loginPageObjects.java:58)
+	at com.inetbanking.testCases.TC_LoginTest_002_test.loginDDT(TC_LoginTest_002_test.java:25)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(mngr137319, bAdYvyb)">
+                  </a> <!-- loginDDT(mngr137319, bAdYvyb) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(mngr137319, bAdYvyb)</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:928)
+	at com.inetbanking.testCases.TC_LoginTest_002_test.loginDDT(TC_LoginTest_002_test.java:30)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(mngr83460, qAbUzyj)">
+                  </a> <!-- loginDDT(mngr83460, qAbUzyj) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(mngr83460, qAbUzyj)</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:928)
+	at com.inetbanking.testCases.TC_LoginTest_002_test.loginDDT(TC_LoginTest_002_test.java:30)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(mngr369280, YrujEnEQ)">
+                  </a> <!-- loginDDT(mngr369280, YrujEnEQ) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(mngr369280, YrujEnEQ)</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:928)
+	at com.inetbanking.testCases.TC_LoginTest_002_test.loginDDT(TC_LoginTest_002_test.java:30)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(mngr369280, YrujEnE)">
+                  </a> <!-- loginDDT(mngr369280, YrujEnE) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(mngr369280, YrujEnE)</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1054)
+	at com.inetbanking.testCases.TC_LoginTest_002_test.isAlertPresent(TC_LoginTest_002_test.java:72)
+	at com.inetbanking.testCases.TC_LoginTest_002_test.loginDDT(TC_LoginTest_002_test.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MavenSelYoutubeBankingProject-class-failed -->
+          <div class="suite-MavenSelYoutubeBankingProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.inetbanking.testCases.TC_LoginTest_001_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MavenSelYoutubeBankingProject-class-passed -->
+        </div> <!-- panel MavenSelYoutubeBankingProject -->
+        <div panel-name="test-xml-MavenSelYoutubeBankingProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/jayashreehemmige/eclipse-workspace/MavenSelYoutubeBankingProject/TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MavenSelYoutubeBankingProject&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.inetbanking.utilities.extentReporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Banking App Test&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.inetbanking.testCases.TC_LoginTest_001_test&quot;/&gt;
+      &lt;class name=&quot;com.inetbanking.testCases.TC_LoginTest_002_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Banking App Test --&gt;
+&lt;/suite&gt; &lt;!-- MavenSelYoutubeBankingProject --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MavenSelYoutubeBankingProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MavenSelYoutubeBankingProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Banking App Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MavenSelYoutubeBankingProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MavenSelYoutubeBankingProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MavenSelYoutubeBankingProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MavenSelYoutubeBankingProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MavenSelYoutubeBankingProject');
+function tableData_MavenSelYoutubeBankingProject() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginDDT')
+data.setCell(0, 2, 'com.inetbanking.testCases.TC_LoginTest_002_test')
+data.setCell(0, 3, 10025);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginDDT')
+data.setCell(1, 2, 'com.inetbanking.testCases.TC_LoginTest_002_test')
+data.setCell(1, 3, 5570);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.inetbanking.testCases.TC_LoginTest_001_test')
+data.setCell(2, 3, 2803);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginDDT')
+data.setCell(3, 2, 'com.inetbanking.testCases.TC_LoginTest_002_test')
+data.setCell(3, 3, 1750);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginDDT')
+data.setCell(4, 2, 'com.inetbanking.testCases.TC_LoginTest_002_test')
+data.setCell(4, 3, 1609);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginDDT')
+data.setCell(5, 2, 'com.inetbanking.testCases.TC_LoginTest_002_test')
+data.setCell(5, 3, 794);
+window.suiteTableData['MavenSelYoutubeBankingProject']= { tableData: data, tableDiv: 'times-div-MavenSelYoutubeBankingProject'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-MavenSelYoutubeBankingProject">
+              </div> <!-- times-div-MavenSelYoutubeBankingProject -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MavenSelYoutubeBankingProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MavenSelYoutubeBankingProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MavenSelYoutubeBankingProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MavenSelYoutubeBankingProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetbanking.testCases.TC_LoginTest_001_test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testSetUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">7068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownS</span>
+                <span class="method-start">9886 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetbanking.testCases.TC_LoginTest_002_test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testSetUp(chrome)</span>
+                <span class="method-start">10046 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(mngr369280, YrujEnEQ)</span>
+                <span class="method-start">16176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(mngr83460, qAbUzyj)</span>
+                <span class="method-start">16976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(mngr137319, bAdYvyb)</span>
+                <span class="method-start">18587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(mngr369280, YrujEnE)</span>
+                <span class="method-start">20342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(mngr112909, tytUreg)</span>
+                <span class="method-start">25917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownS</span>
+                <span class="method-start">35946 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="MavenSelYoutubeBankingProject">
+
+<listeners>
+		<listener class-name="com.inetbanking.utilities.extentReporting"/>
+</listeners>
+
+<test name="Banking App Test">
+<parameter name="Browser" value="chrome">
+<classes>
+<class name="com.inetbanking.testCases.TC_LoginTest_001_test"/>
+<!--<class name="com.inetbanking.testCases.TC_LoginTest_002_test"/>-->
+<class name="com.inetbanking.testCases.TC_AddNewCustomer_003_test"/>
+</classes>
+</parameter>
+</test>	
+</suite>
+

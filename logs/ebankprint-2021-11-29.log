@@ -1,0 +1,24 @@
+17:57:28.527 [main] INFO  com.inetbanking.testCases.BaseClass - window opened correctly
+17:57:28.545 [main] DEBUG com.inetbanking.testCases.BaseClass - I am debugging
+17:57:29.883 [main] ERROR com.inetbanking.testCases.BaseClass - there's no error here
+17:57:29.884 [main] ERROR com.inetbanking.testCases.BaseClass - what should the msg be here
+17:57:29.914 [main] INFO  com.inetbanking.testCases.BaseClass - title shown correctly1
+17:57:29.914 [main] INFO  com.inetbanking.testCases.BaseClass - Lets add more to this
+17:58:05.631 [main] INFO  com.inetbanking.testCases.BaseClass - window opened correctly
+17:58:05.638 [main] DEBUG com.inetbanking.testCases.BaseClass - I am debugging
+17:58:06.402 [main] ERROR com.inetbanking.testCases.BaseClass - there's no error here
+17:58:06.403 [main] ERROR com.inetbanking.testCases.BaseClass - what should the msg be here
+18:00:35.080 [main] INFO  com.inetbanking.testCases.BaseClass - window opened correctly
+18:00:35.084 [main] DEBUG com.inetbanking.testCases.BaseClass - I am debugging
+18:00:35.777 [main] ERROR com.inetbanking.testCases.BaseClass - there's no error here
+18:00:35.777 [main] ERROR com.inetbanking.testCases.BaseClass - what should the msg be here
+21:21:26.865 [main] INFO  com.inetbanking.testCases.BaseClass - window opened correctly
+21:21:26.873 [main] DEBUG com.inetbanking.testCases.BaseClass - I am debugging
+21:21:27.633 [main] ERROR com.inetbanking.testCases.BaseClass - there's no error here
+21:21:27.633 [main] ERROR com.inetbanking.testCases.BaseClass - what should the msg be here
+21:24:21.148 [main] INFO  com.inetbanking.testCases.BaseClass - window opened correctly
+21:24:21.155 [main] DEBUG com.inetbanking.testCases.BaseClass - I am debugging
+21:24:22.466 [main] ERROR com.inetbanking.testCases.BaseClass - there's no error here
+21:24:22.467 [main] ERROR com.inetbanking.testCases.BaseClass - what should the msg be here
+21:24:22.499 [main] INFO  com.inetbanking.testCases.BaseClass - title shown correctly1
+21:24:22.499 [main] INFO  com.inetbanking.testCases.BaseClass - Lets add more to this

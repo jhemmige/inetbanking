@@ -1,0 +1,21 @@
+20:39:14.725 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:39:14.762 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:39:14.763 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:39:14.789 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:39:14.790 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:39:14.815 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:39:14.816 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:39:14.989 [main] INFO  com.inetbanking.testCases.BaseClass - user name provided
+20:39:15.081 [main] INFO  com.inetbanking.testCases.BaseClass - password provided
+20:39:20.131 [main] INFO  com.inetbanking.testCases.BaseClass - user name provided
+20:39:20.212 [main] INFO  com.inetbanking.testCases.BaseClass - password provided
+20:39:25.430 [main] INFO  com.inetbanking.testCases.BaseClass - user name provided
+20:39:25.508 [main] INFO  com.inetbanking.testCases.BaseClass - password provided
+20:39:30.227 [main] INFO  com.inetbanking.testCases.BaseClass - user name provided
+20:39:30.305 [main] INFO  com.inetbanking.testCases.BaseClass - password provided
+20:40:27.231 [main] INFO  com.inetbanking.testCases.BaseClass - window opened correctly
+20:40:27.235 [main] DEBUG com.inetbanking.testCases.BaseClass - I am debugging
+20:40:29.081 [main] ERROR com.inetbanking.testCases.BaseClass - there's no error here
+20:40:29.081 [main] ERROR com.inetbanking.testCases.BaseClass - what should the msg be here
+20:40:29.099 [main] INFO  com.inetbanking.testCases.BaseClass - title shown correctly1
+20:40:29.099 [main] INFO  com.inetbanking.testCases.BaseClass - Lets add more to this
